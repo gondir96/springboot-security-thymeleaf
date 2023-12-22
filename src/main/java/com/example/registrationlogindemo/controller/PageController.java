@@ -11,11 +11,11 @@ import java.io.IOException;
 import java.util.Map;
 
 @Controller
-public class BookController {
+public class PageController {
 
     private final PageService pageService;
 
-    public BookController(PageService storyService) {
+    public PageController(PageService storyService) {
         this.pageService = storyService;
     }
 

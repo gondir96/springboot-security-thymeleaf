@@ -77,10 +77,6 @@
       "B": {
         "choiceText": "Elhagyod a termet, és folytatod a kastély felfedezését",
         "nextPage": "15"
-      },
-      "C": {
-        "choiceText": "Bezárkózol a teremben, és próbálod megérteni a könyvek tartalmát",
-        "nextPage": "16"
       }
     }
   },
@@ -220,8 +216,1093 @@
       }
     }
   },
+  "14": {
+    "text": "A könyvek között böngészve rájössz, hogy ezek ősi varázslati tudásokat rejtő könyvek. Találsz egy olyan könyvet, amely titkos rituálokat és varázslatokat tartalmaz. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Elkezded tanulmányozni a varázslati könyvet",
+        "nextPage": "33"
+      },
+      "B": {
+        "choiceText": "Visszateszed a könyvet, és folytatod a kastély felfedezését",
+        "nextPage": "15"
+      },
+      "C": {
+        "choiceText": "Ellopod a könyvet magaddal a további kutatásokhoz",
+        "nextPage": "34"
+      }
+    }
+  },
+  "15": {
+    "text": "A kastély további szobáit fedezed fel. Egy hatalmas teremben egy régi zongora áll. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Megpróbálsz eljátszani valamilyen dallamot a zongorán",
+        "nextPage": "35"
+      },
+      "B": {
+        "choiceText": "Folytatod a kastély felfedezését, és további szobákat kutatsz",
+        "nextPage": "37"
+      }
+    }
+  },
+  "16": {
+    "text": "A poros teremben talált rejtett ajtó egy másik titkos terembe vezet. Ez a terem tele van különleges kristályokkal. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Gyűjts össze néhány kristályt",
+        "nextPage": "38"
+      },
+      "B": {
+        "choiceText": "Tanulmányozd a kristályokat, hogy megértsd varázslatos tulajdonságaikat",
+        "nextPage": "39"
+      },
+      "C": {
+        "choiceText": "Folytasd a kastély felfedezését, és hagyj fel a kristályokkal",
+        "nextPage": "15"
+      }
+    }
+  },
+  "17": {
+    "text": "A rejtélyes ajtón belépve egy titkos térbe érkezel, ahol egy varázslatos tükör áll. A tükörben egy másik világ látható. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Lépj át a tükörön, és fedezd fel a másik világot",
+        "nextPage": "40"
+      },
+      "B": {
+        "choiceText": "Tanulmányozd a tükröt, hogy megértsd annak varázslatos tulajdonságait",
+        "nextPage": "41"
+      },
+      "C": {
+        "choiceText": "Folytasd a kastély felfedezését, és hagyj fel a tükörrel",
+        "nextPage": "15"
+      }
+    }
+  },
+  "18": {
+    "text": "Megpróbálod megkerülni a zaj forrását, de egy árnyékos alak blokkolja az utad. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Szólítsd meg az alakot, és kérdezd meg, mi történik",
+        "nextPage": "42"
+      },
+      "B": {
+        "choiceText": "Próbáld meg elkerülni az alakot és folytasd az utadat",
+        "nextPage": "43"
+      },
+      "C": {
+        "choiceText": "Rejtsd el magadat, és figyeld, hogyan alakul a helyzet",
+        "nextPage": "44"
+      }
+    }
+  },
+  "19": {
+    "text": "Az alcove-ban rejtőzködve hallod, hogy két titokzatos alak beszélget. Kihallgatod a beszélgetésüket. Mit tudsz meg?",
+    "choices": {
+      "A": {
+        "choiceText": "Hallgatod tovább a beszélgetést, hogy több részletet megtudj",
+        "nextPage": "45"
+      },
+      "B": {
+        "choiceText": "Próbálsz közelebb menni, hogy láthasd az alakokat",
+        "nextPage": "46"
+      },
+      "C": {
+        "choiceText": "Döntsd el, hogy kilépsz az alcove-ból, és szembesülsz az alakokkal",
+        "nextPage": "47"
+      }
+    }
+  },
+  "20": {
+    "text": "Az ösvény egy tisztáshoz vezet, ahol egy varázslatos lény áll. A lény megkér, hogy segíts neki megtalálni elveszett varázskönyvét. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Ajánld fel segítségedet a varázskönyv megtalálásában",
+        "nextPage": "48"
+      },
+      "B": {
+        "choiceText": "Kerüld el a lényt, és folytasd az utadat az ösvényen",
+        "nextPage": "49"
+      },
+      "C": {
+        "choiceText": "Kérdezd meg a lénytől, miért fontos neki a varázskönyv",
+        "nextPage": "50"
+      }
+    }
+  },
+  "21": {
+    "text": "Fotózva megörökíted a régi bútorokat. Amikor azonban megtekinted a képeket, valami furcsát veszel észre rajtuk. Mi ez?",
+    "choices": {
+      "A": {
+        "choiceText": "Közelebbről vizsgálod meg a képeket, hogy kiderítsd, mi történt",
+        "nextPage": "51"
+      },
+      "B": {
+        "choiceText": "Visszateszed a fényképezőt, és folytatod a kastély felfedezését",
+        "nextPage": "15"
+      },
+      "C": {
+        "choiceText": "Visszamentek a kúriához, és használod a kulcsot egy másik ajtó kinyitására",
+        "nextPage": "8"
+      }
+    }
+  },
+  "22": {
+    "text": "A barlang mélyén egy ősi kincset találsz. Mit teszel a kincslelettel?",
+    "choices": {
+      "A": {
+        "choiceText": "Felteszed a kincset a hátadra, és visszamész a kastélyba",
+        "nextPage": "52"
+      },
+      "B": {
+        "choiceText": "Hagyod a kincset, és folytatod az ösvényen való haladást",
+        "nextPage": "20"
+      },
+      "C": {
+        "choiceText": "Visszatérsz a kastélyba, és megosztod a kincset a lakókkal",
+        "nextPage": "53"
+      }
+    }
+  },
+  "23": {
+    "text": "Az alak egy elveszett lelket képvisel, aki segítséget kér. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Ígéretet teszel neki, hogy segítesz neki megtalálni a békéjét",
+        "nextPage": "54"
+      },
+      "B": {
+        "choiceText": "Kerülöd az alakot, és folytatod az utadat",
+        "nextPage": "24"
+      },
+      "C": {
+        "choiceText": "Megkérdezed az alaktól, miért veszélyezteti a békéjét",
+        "nextPage": "55"
+      }
+    }
+  },
+  "24": {
+    "text": "Az ösvény egy tisztásra vezet, ahol egy gyönyörű tó található. Egy rejtélyes alak ül a tó partján. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Közeledj az alakhoz, és kezdd el vele a beszélgetést",
+        "nextPage": "56"
+      },
+      "B": {
+        "choiceText": "Kerüld el az alakot, és folytasd az ösvényen való haladást",
+        "nextPage": "57"
+      },
+      "C": {
+        "choiceText": "Ülj le a tó partjára, és pihenj egy kicsit",
+        "nextPage": "58"
+      }
+    }
+  },
+  "25": {
+    "text": "Az alakok egy titkos terembe hoznak, ahol ősi tudás és varázslatok rejlenek. Mit kérdezel tőlük?",
+    "choices": {
+      "A": {
+        "choiceText": "Kérd meg őket, hogy osszák meg veled minden tudásukat",
+        "nextPage": "105"
+      },
+      "B": {
+        "choiceText": "Kérdezd meg tőlük, miért hívtak meg téged a terembe",
+        "nextPage": "60"
+      },
+      "C": {
+        "choiceText": "Hagyjad el a termet, és folytasd a kastély felfedezését",
+        "nextPage": "15"
+      }
+    }
+  },
+  "26": {
+    "text": "A táncba elegyedve kiderül, hogy ezek az láthatatlan lények a természet varázslatai. Mit kérsz tőlük?",
+    "choices": {
+      "A": {
+        "choiceText": "Kérj tőlük egy varázslatot a saját védelmedre",
+        "nextPage": "61"
+      },
+      "B": {
+        "choiceText": "Kérdezd meg tőlük, hogyan lehet harmóniában élni a természettel",
+        "nextPage": "62"
+      },
+      "C": {
+        "choiceText": "Köszönd meg a táncot, és hagyjad el a tisztást",
+        "nextPage": "63"
+      }
+    }
+  },
+  "27": {
+    "text": "Az láthatatlan lények elárulják, hogy egy ősi átok alatt állnak. Mit teszel, hogy segíts nekik?",
+    "choices": {
+      "A": {
+        "choiceText": "Kutass a környéken, hogy megtaláld az átok forrását",
+        "nextPage": "64"
+      },
+      "B": {
+        "choiceText": "Tanulmányozd az ősi könyveket, hogy megtaláld az átok feloldásának módját",
+        "nextPage": "65"
+      },
+      "C": {
+        "choiceText": "Hagyjad el a helyet, és folytasd az utadat",
+        "nextPage": "66"
+      }
+    }
+  },
+  "28": {
+    "text": "Sikeresen elkerülöd a figyelmet, és észrevétlenül elhagyod a titkos tisztást. Az ösvény egy sűrű erdőbe vezet. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Folytasd az erdő mélyére vezető ösvényen",
+        "nextPage": "67"
+      },
+      "B": {
+        "choiceText": "Keresd meg a tisztásból vezető másik ösvényt",
+        "nextPage": "68"
+      },
+      "C": {
+        "choiceText": "Térj vissza a kastélyhoz",
+        "nextPage": "13"
+      }
+    }
+  },
+  "29": {
+    "text": "Az alak hálásan köszöni meg, hogy segítettél neki megtalálni a békéjét. Elmondja, hogy egy ősi átok alatt állt, és most végre szabad. Az alak eltűnik, és az ösvény tovább vezet az erdő mélyére. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Folytasd az erdő mélyére vezető ösvényen",
+        "nextPage": "69"
+      },
+      "B": {
+        "choiceText": "Keresd meg a tisztásból vezető másik ösvényt",
+        "nextPage": "68"
+      },
+      "C": {
+        "choiceText": "Térj vissza a kastélyhoz",
+        "nextPage": "13"
+      }
+    }
+  },
+  "30": {
+    "text": "Az éneked elvarázsolja a fát, és a fa megengedi, hogy folytasd az ösvényen. Az út egy tisztásra vezet, ahol egy rejtélyes alak áll. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Közeledj az alakhoz, és próbáld meg kideríteni, ki ő",
+        "nextPage": "56"
+      },
+      "B": {
+        "choiceText": "Kerüld el az alakot, és folytasd az utadat",
+        "nextPage": "57"
+      },
+      "C": {
+        "choiceText": "Ülj le a tó partjára, és pihenj egy kicsit",
+        "nextPage": "58"
+      }
+    }
+  },
+  "31": {
+    "text": "A táncod elvarázsolja a fát, és a fa megnyitja az ösvényt a továbbhaladáshoz. Az út egy tisztásra vezet, ahol egy rejtélyes alak áll. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Közeledj az alakhoz, és próbáld meg kideríteni, ki ő",
+        "nextPage": "56"
+      },
+      "B": {
+        "choiceText": "Kerüld el az alakot, és folytasd az utadat",
+        "nextPage": "57"
+      },
+      "C": {
+        "choiceText": "Ülj le a tó partjára, és pihenj egy kicsit",
+        "nextPage": "58"
+      }
+    }
+  },
   "32": {
-    "text": "A kastély mélyén találtál egy elhagyatott könyvtárat. Kutass a könyvek között további információk után, és felfedezed a kastély titkait. A történet véget ér.",
+    "text": "A kastélyban tovább kutatsz, és egy régi könyvtárszerű terembe jutsz. A polcokon poros könyvek sorakoznak. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Keresel valamilyen érdekes könyvet a polcok között",
+        "nextPage": "72"
+      },
+      "B": {
+        "choiceText": "Folytatod a kastély felfedezését, és további szobákat kutatsz",
+        "nextPage": "36"
+      },
+      "C": {
+        "choiceText": "Hagyjad el a könyvtárat, és menj az udvarra",
+        "nextPage": "73"
+      }
+    }
+  },
+  "33": {
+    "text": "A varázslati könyv tanulmányozása közben egy titkos rituálét találsz, amely segíthet az életedben. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Elkezded gyakorolni a rituált",
+        "nextPage": "70"
+      },
+      "B": {
+        "choiceText": "Visszateszed a könyvet, és folytatod a kastély felfedezését",
+        "nextPage": "15"
+      },
+      "C": {
+        "choiceText": "Ellopod a könyvet magaddal a további kutatásokhoz",
+        "nextPage": "34"
+      }
+    }
+  },
+  "34": {
+    "text": "A könyvet ellopva magaddal, tovább folytatod a kastély felfedezését. Egy hatalmas teremben egy régi zongora áll. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Megpróbálod eljátszani valamilyen dallamot a zongorán",
+        "nextPage": "35"
+      },
+      "B": {
+        "choiceText": "Folytatod a kastély felfedezését, és további szobákat kutatsz",
+        "nextPage": "36"
+      },
+      "C": {
+        "choiceText": "Keresel valamilyen rejtett tárgyat a teremben",
+        "nextPage": "37"
+      }
+    }
+  },
+  "35": {
+    "text": "A zongora dallama elvarázsol, és egy rejtett ajtó nyílik meg. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Lépsz be a rejtett ajtón",
+        "nextPage": "17"
+      },
+      "B": {
+        "choiceText": "Menj vissza az erdő felé",
+        "nextPage": "4"
+      },
+      "C": {
+        "choiceText": "Kutass tovább a kastélyban",
+        "nextPage": "32"
+      }
+    }
+  },
+  "36": {
+    "text": "A kastély további szobáit fedezed fel. Egy hatalmas teremben egy régi zongora áll. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Megpróbálod eljátszani valamilyen dallamot a zongorán",
+        "nextPage": "35"
+      },
+      "B": {
+        "choiceText": "Folytatod a kastély felfedezését, és további szobákat kutatsz",
+        "nextPage": "37"
+      },
+      "C": {
+        "choiceText": "Keresel valamilyen rejtett tárgyat a teremben",
+        "nextPage": "38"
+      }
+    }
+  },
+  "37": {
+    "text": "A kastély további szobáit kutatod, de semmi különlegeset nem találsz. Érzed, hogy egy titokzatos erő húz valahova. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Követsz egy érzést, és indulj el abba az irányba",
+        "nextPage": "39"
+      },
+      "B": {
+        "choiceText": "Visszatérsz a kastély központi részére, hogy újraorientálódj",
+        "nextPage": "40"
+      },
+      "C": {
+        "choiceText": "Maradsz a jelenlegi szobában, és próbálod megfejteni a titkot",
+        "nextPage": "41"
+      }
+    }
+  },
+  "38": {
+    "text": "A poros teremben talált rejtett ajtó egy másik titkos terembe vezet. Ez a terem tele van különleges kristályokkal. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Gyűjts össze néhány kristályt",
+        "nextPage": "42"
+      },
+      "B": {
+        "choiceText": "Tanulmányozd a kristályokat, hogy megértsd varázslatos tulajdonságaikat",
+        "nextPage": "43"
+      },
+      "C": {
+        "choiceText": "Folytasd a kastély felfedezését, és hagyj fel a kristályokkal",
+        "nextPage": "44"
+      }
+    }
+  },
+  "39": {
+    "text": "Az érzés egy titkos ajtóhoz vezet. Miután kinyitod az ajtót, egy sötét lépcső vezet lefelé. Merre mész?",
+    "choices": {
+      "A": {
+        "choiceText": "Lépj le a lépcsőn és folytasd az alagsori felfedezést",
+        "nextPage": "45"
+      },
+      "B": {
+        "choiceText": "Gondolkodás nélkül merülsz le a sötét lépcsőkön",
+        "nextPage": "46"
+      },
+      "C": {
+        "choiceText": "Inkább zárjad be az ajtót és térj vissza a kastély más részeihez",
+        "nextPage": "47"
+      }
+    }
+  },
+  "40": {
+    "text": "A kastély központi részében találsz egy régi térképet. Rájössz, hogy vannak olyan területek, amelyeket még nem fedeztél fel. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Kövesd a térképet és fedezd fel a még ismeretlen területeket",
+        "nextPage": "48"
+      },
+      "B": {
+        "choiceText": "Visszatérsz az eredeti útvonalhoz, és folytatod a felfedezést onnan",
+        "nextPage": "49"
+      },
+      "C": {
+        "choiceText": "Hagyod a térképet, és tovább kutatsz a kastélyban",
+        "nextPage": "50"
+      }
+    }
+  },
+  "41": {
+    "text": "A teremben keresgélsz, és egy régi naplót találsz. A napló tele van régi történetekkel és titkokkal. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Böngészed a naplót, hogy többet megtudj a kastély múltjáról",
+        "nextPage": "51"
+      },
+      "B": {
+        "choiceText": "Visszateszed a naplót, és folytatod a kastély felfedezését",
+        "nextPage": "52"
+      },
+      "C": {
+        "choiceText": "Elveszed a naplót, hogy később elolvashasd",
+        "nextPage": "53"
+      }
+    }
+  },
+  "42": {
+    "text": "Ahogy a kristályokat gyűjtöd, észreveszed, hogy kezdenek fényleni és kis sugárzó energiát árasztani. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Próbáld meg érezni az energiát és megérteni, milyen erő rejlik bennük",
+        "nextPage": "54"
+      },
+      "B": {
+        "choiceText": "Helyezd el a kristályokat a zsebedben és folytasd a kastély felfedezését",
+        "nextPage": "55"
+      },
+      "C": {
+        "choiceText": "Hagyj fel a kristályokkal és térj vissza a kertbe",
+        "nextPage": "9"
+      }
+    }
+  },
+  "43": {
+    "text": "Ahogy tanulmányozod a kristályokat, észreveszed, hogy mindegyik más varázslatos tulajdonsággal rendelkezik. Mit választasz?",
+    "choices": {
+      "A": {
+        "choiceText": "Próbáld meg aktiválni a kristályok varázslatos képességeit",
+        "nextPage": "56"
+      },
+      "B": {
+        "choiceText": "Gyűjts még több kristályt a teremből",
+        "nextPage": "57"
+      },
+      "C": {
+        "choiceText": "Folytasd a kastély felfedezését, mintha mi sem történt volna",
+        "nextPage": "15"
+      }
+    }
+  },
+  "44": {
+    "text": "Visszatérsz az ösvényre, és a kert felé veszed az irányt. Ahogy sétálsz, észreveszel egy rejtett szökőkutat. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Megállsz a szökőkút mellett és tanulmányozod a víz játékát",
+        "nextPage": "58"
+      },
+      "B": {
+        "choiceText": "Folytatod az ösvényen való sétát a kertben",
+        "nextPage": "59"
+      },
+      "C": {
+        "choiceText": "Keresel egy másik utat a kertben",
+        "nextPage": "60"
+      }
+    }
+  },
+  "45": {
+    "text": "A lépcső levezet egy rejtett alagsori terembe, ahol egy titkos társaság gyűl össze. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Megrázod a társaság tagjainak a kezét és csatlakozol hozzájuk",
+        "nextPage": "61"
+      },
+      "B": {
+        "choiceText": "Kérdezed a társaság céljait és szándékait",
+        "nextPage": "62"
+      },
+      "C": {
+        "choiceText": "Gyorsan visszamész a lépcsőn és elhagyod a termet",
+        "nextPage": "63"
+      }
+    }
+  },
+  "46": {
+    "text": "Lépcsőről lépcsőre haladsz lefelé a sötét alagsorban. Egy rejtett ajtó előtt állsz. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Nyitsd ki az ajtót és lépj be a titkos helyiségbe",
+        "nextPage": "64"
+      },
+      "B": {
+        "choiceText": "Hagyjad el az ajtót, és folytasd az alagsori keresgélést",
+        "nextPage": "65"
+      },
+      "C": {
+        "choiceText": "Inkább visszamész a kastély felső szintjeire",
+        "nextPage": "66"
+      }
+    }
+  },
+  "47": {
+    "text": "Az ajtó zárva van, és egy régi felirat olvasható rajta. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Próbálkozol a zár feltörésével vagy kinyitásával",
+        "nextPage": "67"
+      },
+      "B": {
+        "choiceText": "Megpróbálsz visszamenni a lépcsőn és más irányba indulni",
+        "nextPage": "68"
+      },
+      "C": {
+        "choiceText": "Kutatsz a közelben egy másik útvonal után",
+        "nextPage": "69"
+      }
+    }
+  },
+  "48": {
+    "text": "Követed a térképet, és egy sötét alagútba vezet. A mélyben hallod a susogást és furcsa hangokat. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Haladsz tovább az alagúton, és próbálod kideríteni, honnan jönnek a hangok",
+        "nextPage": "78"
+      },
+      "B": {
+        "choiceText": "Visszamész az eredeti útvonalhoz, és tovább folytatod a felfedezést onnan",
+        "nextPage": "79"
+      },
+      "C": {
+        "choiceText": "Próbálod elkerülni az alagutat, és más utat keresel a kastélyban",
+        "nextPage": "80"
+      }
+    }
+  },
+  "49": {
+    "text": "Visszatérsz az eredeti útvonalhoz, és folytatod a felfedezést. Egy hatalmas teremben egy régi könyvtár áll. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Keresel valamilyen érdekes könyvet a polcok között",
+        "nextPage": "72"
+      },
+      "B": {
+        "choiceText": "Folytatod a kastély felfedezését, és további szobákat kutatsz",
+        "nextPage": "36"
+      },
+      "C": {
+        "choiceText": "Hagyjad el a könyvtárat, és menj az udvarra",
+        "nextPage": "73"
+      }
+    }
+  },
+  "50": {
+    "text": "Hagyod a térképet, és tovább kutatsz a kastélyban. Egy hatalmas teremben találsz egy régi zongorát. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Megpróbálod eljátszani valamilyen dallamot a zongorán",
+        "nextPage": "35"
+      },
+      "B": {
+        "choiceText": "Folytatod a kastély felfedezését, és további szobákat kutatsz",
+        "nextPage": "36"
+      },
+      "C": {
+        "choiceText": "Keresel valamilyen rejtett tárgyat a teremben",
+        "nextPage": "37"
+      }
+    }
+  },
+  "51": {
+    "text": "A könyvtárban kutatsz, és egy poros könyvet találsz, amely tele van ősi varázslatokkal. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Elkezded tanulmányozni a varázslatokat és próbálod őket elsajátítani",
+        "nextPage": "74"
+      },
+      "B": {
+        "choiceText": "Visszateszed a könyvet, és folytatod a kastély felfedezését",
+        "nextPage": "15"
+      },
+      "C": {
+        "choiceText": "Ellopod a könyvet magaddal a további kutatásokhoz",
+        "nextPage": "34"
+      }
+    }
+  },
+  "52": {
+    "text": "A könyvtárban kutatva egy régi térképet találsz. Rájössz, hogy vannak olyan területek, amelyeket még nem fedeztél fel. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Kövesd a térképet és fedezd fel a még ismeretlen területeket",
+        "nextPage": "48"
+      },
+      "B": {
+        "choiceText": "Visszatérsz az eredeti útvonalhoz, és folytatod a felfedezést onnan",
+        "nextPage": "49"
+      },
+      "C": {
+        "choiceText": "Hagyod a térképet, és tovább kutatsz a kastélyban",
+        "nextPage": "50"
+      }
+    }
+  },
+  "53": {
+    "text": "A zongora dallama elvarázsol, és egy rejtett ajtó nyílik meg. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Lépsz be a rejtett ajtón",
+        "nextPage": "17"
+      },
+      "B": {
+        "choiceText": "Menj vissza az erdő felé",
+        "nextPage": "4"
+      },
+      "C": {
+        "choiceText": "Kutass tovább a kastélyban",
+        "nextPage": "32"
+      }
+    }
+  },
+  "54": {
+    "text": "Ahogy érzed az energiát a kristályokból, egyre erőteljesebb varázslatokat észlelsz. Mit választasz?",
+    "choices": {
+      "A": {
+        "choiceText": "Próbáld meg használni a varázslatokat a kastély felfedezésében",
+        "nextPage": "75"
+      },
+      "B": {
+        "choiceText": "Tarts meg néhány kristályt biztonsági okokból, majd folytasd a kastély felfedezését",
+        "nextPage": "76"
+      },
+      "C": {
+        "choiceText": "Hagyjad el a kristályokat, és menj az udvarra",
+        "nextPage": "73"
+      }
+    }
+  },
+  "55": {
+    "text": "A naplóban érdekes történeteket találsz a kastély lakóiról és múltjáról. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Böngészed a naplót, hogy többet megtudj a kastély múltjáról",
+        "nextPage": "51"
+      },
+      "B": {
+        "choiceText": "Visszateszed a naplót, és folytatod a kastély felfedezését",
+        "nextPage": "52"
+      },
+      "C": {
+        "choiceText": "Elveszed a naplót, hogy később elolvashasd",
+        "nextPage": "53"
+      }
+    }
+  },
+  "56": {
+    "text": "Ahogy aktiválod a kristályok varázslatos képességeit, egy erős energiahullám söpör végig rajtad. A környezeted megváltozik, és egy másik dimenzióba kerülsz. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Kutatsz a dimenzióban, és próbálod megérteni, hol vagy",
+        "nextPage": "77"
+      },
+      "B": {
+        "choiceText": "Próbálsz visszajutni a kastélyba és az eredeti dimenziódba",
+        "nextPage": "78"
+      },
+      "C": {
+        "choiceText": "Elfogadod a helyzetet, és felfedezed a dimenzió titkait",
+        "nextPage": "79"
+      }
+    }
+  },
+  "57": {
+    "text": "Ahogy gyűjtöd a kristályokat, hirtelen egy régi varázsló jelenik meg előtted. Követeli, hogy tedd le a kristályokat, mert veszélyes erőkkel vannak felruházva. Mit választasz?",
+    "choices": {
+      "A": {
+        "choiceText": "Megtagadod a varázsló kérését és folytatod a kristályok gyűjtését",
+        "nextPage": "80"
+      },
+      "B": {
+        "choiceText": "Elengeded a kristályokat, és engedelmeskedsz a varázsló parancsának",
+        "nextPage": "81"
+      },
+      "C": {
+        "choiceText": "Megkérded a varázslótól, miért veszélyesek a kristályok, és mi történhet velük",
+        "nextPage": "82"
+      }
+    }
+  },
+  "58": {
+    "text": "A szökőkút mellett megállsz, és észreveszed, hogy a víz különleges tulajdonságokkal rendelkezik. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Megpróbálod megérteni a víz varázslatos tulajdonságait",
+        "nextPage": "83"
+      },
+      "B": {
+        "choiceText": "Felveszel egy keveset a vízből egy különleges üvegbe",
+        "nextPage": "84"
+      },
+      "C": {
+        "choiceText": "Folytatod az ösvényen való sétát a kertben",
+        "nextPage": "59"
+      }
+    }
+  },
+  "59": {
+    "text": "Az ösvényen tovább sétálsz a kertben. Egy rejtett ajtót találsz. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Nyitsd ki az ajtót és lépj be a rejtett helyiségbe",
+        "nextPage": "85"
+      },
+      "B": {
+        "choiceText": "Hagyjad el az ajtót, és folytasd az ösvényen való sétát",
+        "nextPage": "86"
+      },
+      "C": {
+        "choiceText": "Próbáld meg kinyitni az ajtót, de ha nem sikerül, folytasd az ösvényen",
+        "nextPage": "87"
+      }
+    }
+  },
+  "60": {
+    "text": "Keresel egy másik utat a kertben. Észreveszel egy csodálatos virágoskertet. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Közelebbről megvizsgálod a virágokat, hogy talán varázslatos tulajdonságokkal rendelkeznek",
+        "nextPage": "88"
+      },
+      "B": {
+        "choiceText": "Folytatod az ösvényen való sétát a virágoskert mellett",
+        "nextPage": "89"
+      },
+      "C": {
+        "choiceText": "Próbálsz egy csokrot szedni a virágokból",
+        "nextPage": "90"
+      }
+    }
+  },
+  "61": {
+    "text": "Megrázod a társaság tagjainak a kezét, és csatlakozol hozzájuk. Hamarosan rájössz, hogy a társaság ősi varázslók és tudósok gyülekezete. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Kérdezed, hogy csatlakozhatsz-e hozzájuk és részt vehetsz-e a tanácskozásaikon",
+        "nextPage": "91"
+      },
+      "B": {
+        "choiceText": "Figyeled a társaság tevékenységét, de nem avatkozol be",
+        "nextPage": "92"
+      },
+      "C": {
+        "choiceText": "Azonnal kijársz a teremből, mert nem érdeklik a varázslók ügyei",
+        "nextPage": "93"
+      }
+    }
+  },
+  "62": {
+    "text": "Kérdezed a társaság céljait és szándékait. Elmondják, hogy ők a kastély őrei és vigyáznak a benne rejlő titkokra. Mit választasz?",
+    "choices": {
+      "A": {
+        "choiceText": "Felajánlod a segítségedet, hogy együtt védelmezhessétek a kastélyt",
+        "nextPage": "94"
+      },
+      "B": {
+        "choiceText": "Megköszönöd az információkat és távozol",
+        "nextPage": "95"
+      },
+      "C": {
+        "choiceText": "Kijársz a teremből, és folytatod a kastély felfedezését",
+        "nextPage": "96"
+      }
+    }
+  },
+  "63": {
+    "text": "Gyorsan visszamész a lépcsőn és elhagyod a termet. A kastély más részei felé veszed az irányt. Észreveszel egy rejtett ajtót az egyik folyosón. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Nyitsd ki az ajtót, és lépj be a rejtett helyiségbe",
+        "nextPage": "97"
+      },
+      "B": {
+        "choiceText": "Folytasd az eredeti útvonalat, és hagyjad figyelmen kívül a rejtett ajtót",
+        "nextPage": "98"
+      },
+      "C": {
+        "choiceText": "Kutass tovább a folyosón és nézd meg, hova vezet",
+        "nextPage": "99"
+      }
+    }
+  },
+  "64": {
+    "text": "Nyitsd ki az ajtót és lépj be a titkos helyiségbe. Ott találsz egy ősi könyvet, amely tele van elfeledett varázslatokkal. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Elkezded tanulmányozni a varázslatokat, hogy megtanuld őket",
+        "nextPage": "100"
+      },
+      "B": {
+        "choiceText": "Visszateszed a könyvet, és folytatod a kastély felfedezését",
+        "nextPage": "15"
+      },
+      "C": {
+        "choiceText": "Ellopod a könyvet, hogy később elolvashasd",
+        "nextPage": "34"
+      }
+    }
+  },
+  "65": {
+    "text": "Az ajtó zárva van, és egy régi felirat olvasható rajta. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Próbálkozol a zár feltörésével vagy kinyitásával",
+        "nextPage": "67"
+      },
+      "B": {
+        "choiceText": "Megpróbálsz visszamenni a lépcsőn és más irányba indulni",
+        "nextPage": "68"
+      },
+      "C": {
+        "choiceText": "Kutatsz a közelben egy másik útvonal után",
+        "nextPage": "69"
+      }
+    }
+  },
+  "67": {
+    "text": "Kísérleted a zár feltörésére sikertelen. Hirtelen egy rejtett csapda aktiválódik, és mérgező gáz árasztja el a teret. Sajnálatos módon életét veszted.",
+    "choices": {}
+  },
+  "68": {
+    "text": "Visszamész a lépcsőn, de egy láthatatlan erő megakadályozza, hogy elhagyd a termet. Körbenézel, és észreveszed, hogy az ajtó mögött kinyílik egy titkos folyosó. Óvatos léptekkel felfedezed, és egy újabb dimenzióba lépsz át, ahol a történet végződik.",
+    "choices": {}
+  },
+  "69": {
+    "text": "A közelben egy másik útvonalat találsz. Ahogy folytatod az utadat, egy hatalmas lávaár árad a területen. Gyorsan próbálsz menedéket találni, de sajnos a forró láva utolér. Életét veszted a lávafolyam miatt.",
+    "choices": {}
+  },
+  "70": {
+    "text": "Bekapcsolod a varázskövet, és hirtelen egy másik valóságba kerülsz. Ahol a kastély és a kertek teljesen más formát öltenek. Ahogy körbenézel, észreveszed, hogy a tér idővel játszik, és különböző korszakokban vagy. Kíváncsi vagy, melyik korszakban találod magad. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Kutatsz a különböző korszakokban és megpróbálod megérteni a tér időbeli sajátosságait",
+        "nextPage": "71"
+      },
+      "B": {
+        "choiceText": "Próbálod manipulálni a tér időbeli tulajdonságait a saját előnyödre",
+        "nextPage": "72"
+      },
+      "C": {
+        "choiceText": "Visszatérsz az eredeti valóságodba és folytatod a kastély felfedezését",
+        "nextPage": "49"
+      }
+    }
+  },
+  "71": {
+    "text": "Ahogy különböző korszakokban barangolsz, egy időviharba kerülsz, amely visszarepít az időben. Sajnálatos módon az idővihar elragad téged, és elveszted az idő fogalmát. A történet véget ér.",
+    "choices": {}
+  },
+  "72": {
+    "text": "Megpróbálod manipulálni a tér időbeli tulajdonságait, de a varázskő ereje ellenáll. Az idő kezd összezavarodni, és kiszámíthatatlanná válik. Végül elveszíted az irányítást, és egy időfolyosóban veszel részt. A történet véget ér.",
+    "choices": {}
+  },
+  "73": {
+    "text": "Az udvaron friss levegőt szívsz, és észreveszed, hogy az égbolt tele van csillagokkal. Egy csillag lehull, és ha megérinted, egy kívánság teljesül. Mit kívánsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Kívánok visszatérést az eredeti dimenziómba, és hogy emlékeim törölve legyenek",
+        "nextPage": "74"
+      },
+      "B": {
+        "choiceText": "Kívánok hatalmat és bölcsességet, hogy uralhassam a kastélyt és annak titkait",
+        "nextPage": "75"
+      },
+      "C": {
+        "choiceText": "Kívánok egy boldog és békés életet az új dimenziómban",
+        "nextPage": "76"
+      }
+    }
+  },
+  "74": {
+    "text": "A kívánságod teljesül, és visszatérsz az eredeti dimenziódba. Azonban az emlékeid megmaradnak, és a kastély titkai sosem válnak nyilvánvalóvá. A történet véget ér.",
+    "choices": {}
+  },
+  "75": {
+    "text": "A kívánságod teljesül, és hatalommal és bölcsességgel ruházod fel magad. Azonban a kastélyban rejlő erők túlnőnek rajtad, és elveszted az önuralmadat. Végül a hatalmas erő elnyeli az egész kastélyt és téged is. A történet véget ér.",
+    "choices": {}
+  },
+  "76": {
+    "text": "A kívánságod teljesül, és egy új dimenzióban találod magad. Azonban az új dimenzióban saját kihívásaival kell szembenézned. A történet véget ér.",
+    "choices": {}
+  },
+  "77": {
+    "text": "A dimenzióban való kutatás közben egy ősi lényt ébresztesz fel, amely hosszú évezredek óta alszik. A lény nem hálás az ébredésért, és elpusztít. A történet véget ér.",
+    "choices": {}
+  },
+  "78": {
+    "text": "Bár megpróbálkozol a visszajutással, az eredeti dimenzióba való visszatérés sikertelen. Elveszted magad a dimenziók labirintusában. A történet véget ér.",
+    "choices": {}
+  },
+  "79": {
+    "text": "Elfogadod a helyzetet és elmerülsz a dimenzió titkaiban. Az új dimenzióban érdekes kalandok várnak rád. A történet véget ér.",
+    "choices": {}
+  },
+  "80": {
+    "text": "A varázsló harcba bocsátkozik veled a kristályokért. Sajnálatos módon a varázsló hatalmas erővel rendelkezik, és te alulmaradsz. Az életét veszted a küzdelemben.",
+    "choices": {}
+  },
+  "81": {
+    "text": "Engedelmeskedve a varázslónak, elengeded a kristályokat. A varázsló elégedett, és elvonul. Elveszted a lehetőséget, hogy a kristályok erejét felfedezd. A történet véget ér.",
+    "choices": {}
+  },
+  "82": {
+    "text": "A varázsló elmagyarázza, hogy a kristályok ősi, veszélyes erőkkel vannak felruházva, amelyeket nem lehet kontrollálni. Azonban a varázsló felajánl neked egy biztonságos megoldást a kristályok eltávolítására és a kastély védelmére. A történet véget ér.",
+    "choices": {}
+  },
+  "83": {
+    "text": "A víz varázslatos tulajdonságai elbűvölnek, és belemerülsz a víz rejtelmeibe. Azonban a víz varázslata túl erőteljes, és elveszted az identitásodat. A történet véget ér.",
+    "choices": {}
+  },
+  "84": {
+    "text": "A vízből való vétellel a különleges üveg megtelik varázserővel. Azonban a varázserő túl erős, és az üveg kiszakad a kezedből, elárasztva téged varázserővel. A történet véget ér.",
+    "choices": {}
+  },
+  "85": {
+    "text": "Nyitod az ajtót, és egy rejtett laboratóriumba lépsz. Ott találsz egy varázsló műhelyét, aki boldogan üdvözöl téged. Egyesítitek erőiteket, és egyes varázslatokkal gazdagodtok. A kastélyban új korszak veszi kezdetét.",
+    "choices": {}
+  },
+  "86": {
+    "text": "Ahogy folytatod az ösvényen, egy gyönyörű kertbe vezet, ahol örökké tartó béke és harmónia uralkodik. A kert egy ideális hely arra, hogy örökké élj boldogan. A történet véget ér.",
+    "choices": {}
+  },
+  "87": {
+    "text": "Próbálod kinyitni az ajtót, de az szilárdan zárva marad. Egy hangos dübörgés hallatszik, és egy hatalmas szörnyeteg közeledik feléd. Sajnálatos módon elveszted az életedet a szörnyűség által.",
+    "choices": {}
+  },
+  "88": {
+    "text": "A virágok valóban varázslatos tulajdonságokkal rendelkeznek, és néhányat elkezdesz gyűjteni. Azonban a virágok élettel rendelkeznek, és nem tűrik el, hogy megzavarjanak. A virágok támadásba lendülnek, és elveszted az életed.",
+    "choices": {}
+  },
+  "89": {
+    "text": "Folytatod az ösvényen, és egy tiszta forrás mellett találsz egy pihenőhelyet. Itt élvezheted a kert szépségét és a nyugalmat örökké. A történet véget ér.",
+    "choices": {}
+  },
+  "90": {
+    "text": "A virágokat szedni próbálva hirtelen a kezedbe szúr egy mérgező tüske. A mérgezés gyorsan terjed, és elveszted az életed.",
+    "choices": {}
+  },
+  "91": {
+    "text": "A varázslók és tudósok boldogan üdvözölnek a társaságban. Kifejezik örömüket, hogy egy új tag csatlakozott hozzájuk. Hamarosan te is részt vehetsz a kastély védelmében és a titkok megőrzésében.",
+    "choices": {}
+  },
+  "92": {
+    "text": "Figyeled a társaság tevékenységét, és megérted, hogy nem mindenkinek van helye ebben a különleges közösségben. Csendben távozol és folytatod a kastély felfedezését.",
+    "choices": {}
+  },
+  "93": {
+    "text": "Azonnal kijársz a teremből, és a kastélyt elhagyod. Az életed más területein találsz boldogságot, de sosem deríted ki a kastély teljes titkát.",
+    "choices": {}
+  },
+  "94": {
+    "text": "A kastély őrei örömmel fogadják a segítségedet. Együtt vigyázzátok a kastélyt, és megőrzitek annak titkait. A történet véget ér.",
+    "choices": {}
+  },
+  "95": {
+    "text": "Megköszönöd az információkat, de úgy érzed, nem akarsz részt venni ebben a küldetésben. Békésen távozol, de a kastély titkai sosem válnak nyilvánvalóvá számodra.",
+    "choices": {}
+  },
+  "96": {
+    "text": "Kijársz a teremből, és tovább felfedezed a kastélyt. Az új területek tele vannak kihívásokkal és érdekességekkel. A történet véget ér.",
+    "choices": {}
+  },
+  "97": {
+    "text": "Az ajtó mögött egy ősi titokra bukkanasz, amely magába foglalja a kastély és lakói múltját. Böngészheted a múltat, de az igazság néha fájdalmas lehet. A történet véget ér.",
+    "choices": {}
+  },
+  "98": {
+    "text": "Folytatod az eredeti útvonalat, és hagyod figyelmen kívül a rejtett ajtót. Az eredeti területeken további rejtélyek és kihívások várnak rád. A történet véget ér.",
+    "choices": {}
+  },
+  "99": {
+    "text": "A rejtett ajtó mögött egy hosszú folyosó vezet, amely végre a kastély alá vezet. Itt egy titkos teremre bukkanasz, ahol ősi rituálék zajlanak. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Előbukkanhatsz a rejtekhelyről, és beszállhatsz a rituáléba",
+        "nextPage": "100"
+      },
+      "B": {
+        "choiceText": "Visszatérsz a fő felfedezési útvonalhoz, és folytatod a kutatást",
+        "nextPage": "49"
+      },
+      "C": {
+        "choiceText": "Megpróbálod felfedni a rituálé célját és következményeit",
+        "nextPage": "101"
+      }
+    }
+  },
+  "100": {
+    "text": "Bár megpróbálkozol a beleegyezés nélküli részvétellel, az ősi erők nem tolerálják a beavatkozást. Azonnal elragadnak, és sosem térhetsz vissza a kastélyba. A történet véget ér.",
+    "choices": {}
+  },
+  "101": {
+    "text": "Ahogy közelebbről szemügyre veszed a rituálét, rájössz, hogy az ősi erők segítenek a kastély védelmében és harmóniát teremtenek az erők között. Te is részt vehetsz a rituáléban és erőt gyűjthetsz. A történet véget ér.",
+    "choices": {}
+  },
+  "102": {
+    "text": "A kert gyönyörű látványt nyújt, és észreveszed, hogy a virágok különleges energiával rendelkeznek. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Ásóládát veszel elő, és elkezded gyűjteni a virágok magvait",
+        "nextPage": "103"
+      },
+      "B": {
+        "choiceText": "Folytatod az ösvényen való sétát a kertben",
+        "nextPage": "89"
+      },
+      "C": {
+        "choiceText": "Megpróbálod felvenni a virágokkal való kapcsolatot",
+        "nextPage": "104"
+      }
+    }
+  },
+  "103": {
+    "text": "Ahogy gyűjted a virágok magvait, egy hatalmas fa varázsolódik elő. A fa megáld téged a természet erejével, de felelősséget ró rád a környezet megőrzésére. Te leszel a kert őre. A történet véget ér.",
+    "choices": {}
+  },
+  "104": {
+    "text": "Bár megpróbálkozol a virágokkal való kapcsolatfelvétellel, a virágok energiaáramlata túl erős, és elveszted az eszméletedet. A kert elnyeli a lényedet, és sosem térhetsz vissza. A történet véget ér.",
+    "choices": {}
+  },
+  "105": {
+    "text": "Az alakok örömmel hozzájárulnak a tudásukkal. Megosztanak veled ősi varázslatokat és bölcsességet. Tanulsz tőlük olyan képességeket, amelyeket korábban elképzelni sem tudtál. Azonban, ahogy a tudás egyre inkább birtokba veszi az elmédet, érzed, hogy tested kezd felhagyni a létezéssel. A minden-tudás áldozatokkal jár, és a varázslatos kastély hatalma követel egy árat. Az alakok még egy utolsó mosollyal búcsúznak tőled, mielőtt tested és tudatod végső békére talál a kastélyban. Az elméd azonban örökké megőrzi a varázslatos kastély titkait, és az emlékezeted tovább él az ősi tudásban.",
     "choices": {}
   }
 }
+
