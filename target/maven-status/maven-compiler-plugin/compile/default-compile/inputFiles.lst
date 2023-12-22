@@ -1,4 +1,5 @@
 D:\springboot-security-thymeleaf\src\main\java\com\example\registrationlogindemo\RegistrationLoginDemoApplication.java
+D:\springboot-security-thymeleaf\src\main\java\com\example\registrationlogindemo\service\RoleService.java
 D:\springboot-security-thymeleaf\src\main\java\com\example\registrationlogindemo\service\impl\UserServiceImpl.java
 D:\springboot-security-thymeleaf\src\main\java\com\example\registrationlogindemo\service\UserService.java
 D:\springboot-security-thymeleaf\src\main\java\com\example\registrationlogindemo\controller\AuthController.java

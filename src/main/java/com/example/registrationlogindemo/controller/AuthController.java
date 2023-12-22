@@ -7,9 +7,7 @@ import jakarta.validation.Valid;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -57,10 +55,29 @@ public class AuthController {
         return "redirect:/register?success";
     }
 
+    @GetMapping("/userDto")
+    public String listRegisteredUserDto(Model model){
+        List<UserDto> users = userService.findAllUserDto();
+        model.addAttribute("users", users);
+        for (UserDto user : users) {
+            System.out.println(user);
+        }
+        return "users";
+    }
+
     @GetMapping("/users")
     public String listRegisteredUsers(Model model){
-        List<UserDto> users = userService.findAllUsers();
+        List<User> users = userService.findAllUser();
         model.addAttribute("users", users);
+        for (User user : users) {
+            System.out.println(user);
+        }
         return "users";
+    }
+
+    @GetMapping("/deleteUser/{userId}")
+    public String deleteUser(@PathVariable Long userId) {
+        userService.deleteUserById(userId);
+        return "redirect:/users"; // Redirect to the user list page after deletion
     }
 }

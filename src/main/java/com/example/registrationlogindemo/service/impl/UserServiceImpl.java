@@ -51,10 +51,25 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<UserDto> findAllUsers() {
+    public List<UserDto> findAllUserDto() {
         List<User> users = userRepository.findAll();
         return users.stream().map((user) -> convertEntityToDto(user))
                 .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<User> findAllUser() {
+        return userRepository.findAll();
+    }
+
+    @Override
+    public void deleteUserById(Long id) {
+        User user = userRepository.findById(id).orElse(null);
+
+        if (user != null) {
+            user.getRoles().clear(); // Remove roles from the user
+            userRepository.deleteById(id); // Then delete the user
+        }
     }
 
     private UserDto convertEntityToDto(User user){
