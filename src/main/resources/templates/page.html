@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Adventure</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div id="book" class="container mt-5">
+    <div id="header" th:text="${currentPage.text}" class="text-center h2 mb-4"></div>
+    <div th:each="entry : ${currentPage.choices}" class="mb-2">
+        <button class="choice-button btn btn-success" th:attr="data-next-page=${entry.value.nextPage}" onclick="navigatePage(this)">
+            <span th:text="${entry.value.choiceText}"></span>
+        </button>
+    </div>
+    <a th:href="@{/users}" class="d-block text-center mt-4">
+        <button id="exit-button" class="btn btn-danger">Exit Game</button>
+    </a>
+</div>
+
+<script>
+        function navigatePage(button) {
+            var nextPage = button.getAttribute("data-next-page");
+            window.location.href = "/page/" + nextPage;
+        }
+    </script>
+</body>
+</html>

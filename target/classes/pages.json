@@ -1,0 +1,227 @@
+{
+  "1": {
+    "text": "Éjfél után sétálsz az elhagyatott kastély kertjében. A holdvilág fénye titokzatosan világítja meg az ösvényt.",
+    "choices": {
+      "A": {
+        "choiceText": "Lépj be a kastélyba",
+        "nextPage": "2"
+      },
+      "B": {
+        "choiceText": "Keresd meg a kúriát a kert végén",
+        "nextPage": "3"
+      },
+      "C": {
+        "choiceText": "Folytasd az ösvényen az erdő felé",
+        "nextPage": "4"
+      }
+    }
+  },
+  "2": {
+    "text": "A kastély sötét folyosóin lépkedsz. Halk zörejek hallatszanak. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Menj a hang irányába",
+        "nextPage": "5"
+      },
+      "B": {
+        "choiceText": "Folytasd az előre haladást a folyosón",
+        "nextPage": "6"
+      },
+      "C": {
+        "choiceText": "Menekülj ki a kastélyból",
+        "nextPage": "7"
+      }
+    }
+  },
+  "3": {
+    "text": "A kúriánál találtál egy régi kulcsot. Mit csinálsz vele?",
+    "choices": {
+      "A": {
+        "choiceText": "Nyiss ki egy régi ajtót vele",
+        "nextPage": "8"
+      },
+      "B": {
+        "choiceText": "Mentsd el a kulcsot, és folytasd a kertben való barangolást",
+        "nextPage": "9"
+      },
+      "C": {
+        "choiceText": "Hagyj fel a kulcsokkal, és menj az erdőbe",
+        "nextPage": "10"
+      }
+    }
+  },
+  "4": {
+    "text": "Az ösvény az erdő mélyére vezet. Titokzatos hangok hallatszanak a fák között. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Kövesd a hangokat",
+        "nextPage": "11"
+      },
+      "B": {
+        "choiceText": "Folytasd az ösvényen haladást",
+        "nextPage": "12"
+      },
+      "C": {
+        "choiceText": "Fordulj vissza a kastély irányába",
+        "nextPage": "13"
+      }
+    }
+  },
+  "5": {
+    "text": "A hang egy titkos ajtóhoz vezet. Nyitod az ajtót, és egy sötét terembe lépsz be. Miután meggyújtod a gyertyádat, látod, hogy tele van ősi könyvekkel. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Kezded böngészni a könyveket",
+        "nextPage": "14"
+      },
+      "B": {
+        "choiceText": "Elhagyod a termet, és folytatod a kastély felfedezését",
+        "nextPage": "15"
+      },
+      "C": {
+        "choiceText": "Bezárkózol a teremben, és próbálod megérteni a könyvek tartalmát",
+        "nextPage": "16"
+      }
+    }
+  },
+  "6": {
+    "text": "Ahogy folytatod az előre haladást a sötét folyosón, egy hirtelen zaj hallatszik. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Menj tovább a zaj irányába",
+        "nextPage": "17"
+      },
+      "B": {
+        "choiceText": "Fordulj vissza, és próbáld megkerülni a zaj forrását",
+        "nextPage": "18"
+      },
+      "C": {
+        "choiceText": "Rejtsd el magadat egy alcove-ban, és figyeld, mi történik",
+        "nextPage": "19"
+      }
+    }
+  },
+  "7": {
+    "text": "Sietve menekülsz ki a kastélyból. Az ösvényen választanod kell, hogy merre mész tovább. Mit választasz?",
+    "choices": {
+      "A": {
+        "choiceText": "Menj az erdő felé",
+        "nextPage": "4"
+      },
+      "B": {
+        "choiceText": "Keresd meg a kúriát a kert másik végén",
+        "nextPage": "3"
+      },
+      "C": {
+        "choiceText": "Folytasd az ösvényen a másik irányba",
+        "nextPage": "20"
+      }
+    }
+  },
+  "8": {
+    "text": "A kulcs kinyit egy régi termet, amely tele van poros bútorokkal. Mit keresel itt?",
+    "choices": {
+      "A": {
+        "choiceText": "Kutass a bútorok között egy rejtett ajtó után",
+        "nextPage": "16"
+      },
+      "B": {
+        "choiceText": "Fotózd le a régi bútorokat emlékbe",
+        "nextPage": "21"
+      },
+      "C": {
+        "choiceText": "Hagyj fel a teremmel, és folytasd a kastély felfedezését",
+        "nextPage": "15"
+      }
+    }
+  },
+  "9": {
+    "text": "Megtartod a kulcsot és folytatod a kert felfedezését. Az ösvény egy tisztáson vezet keresztül. Miután áthaladsz rajta, egy barlangot találsz. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Menj be a barlangba",
+        "nextPage": "22"
+      },
+      "B": {
+        "choiceText": "Folytasd az ösvényen a másik irányba",
+        "nextPage": "20"
+      },
+      "C": {
+        "choiceText": "Térj vissza a kastélyhoz",
+        "nextPage": "7"
+      }
+    }
+  },
+  "10": {
+    "text": "A kulcsokat eldobod, és mélyebbre hatolsz az erdőbe. Egy tisztásra jutsz, ahol egy rejtélyes alak áll. Mit csinálsz?",
+    "choices": {
+      "A": {
+        "choiceText": "Közeledj az alakhoz, és próbáld meg kideríteni, ki ő",
+        "nextPage": "23"
+      },
+      "B": {
+        "choiceText": "Kerüld meg az alakot, és folytasd az utadat",
+        "nextPage": "24"
+      },
+      "C": {
+        "choiceText": "Rejtőzz el a fák között, és figyeld az alakot",
+        "nextPage": "25"
+      }
+    }
+  },
+  "11": {
+    "text": "A hangok egy titkos tisztáshoz vezetnek. Láthatatlan lények táncolnak körülötted. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Csatlakozz a táncukhoz",
+        "nextPage": "26"
+      },
+      "B": {
+        "choiceText": "Kérdezd meg tőlük, miért táncolnak",
+        "nextPage": "27"
+      },
+      "C": {
+        "choiceText": "Próbálj meg elkerülni minden figyelmet, és hagyj el a helyet",
+        "nextPage": "28"
+      }
+    }
+  },
+  "12": {
+    "text": "Az ösvény egy tisztásra vezet, ahol egy különleges fa áll. A fa kér egy ajándékot cserébe az ösvény folytatásáért. Mit ajánlasz neki?",
+    "choices": {
+      "A": {
+        "choiceText": "Ajánlj neki egy ékszert",
+        "nextPage": "29"
+      },
+      "B": {
+        "choiceText": "Énekelj neki egy dalt",
+        "nextPage": "30"
+      },
+      "C": {
+        "choiceText": "Mutass neki egy különleges táncot",
+        "nextPage": "31"
+      }
+    }
+  },
+  "13": {
+    "text": "Visszatérsz a kastélyba, ahol egy titkos ajtó tárul fel előtted. Mit teszel?",
+    "choices": {
+      "A": {
+        "choiceText": "Lépj be a rejtett ajtón",
+        "nextPage": "17"
+      },
+      "B": {
+        "choiceText": "Menj vissza az erdő felé",
+        "nextPage": "4"
+      },
+      "C": {
+        "choiceText": "Kutass tovább a kastélyban",
+        "nextPage": "32"
+      }
+    }
+  },
+  "32": {
+    "text": "A kastély mélyén találtál egy elhagyatott könyvtárat. Kutass a könyvek között további információk után, és felfedezed a kastély titkait. A történet véget ér.",
+    "choices": {}
+  }
+}

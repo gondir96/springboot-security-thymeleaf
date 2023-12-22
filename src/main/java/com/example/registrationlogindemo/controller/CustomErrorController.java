@@ -24,6 +24,13 @@ public class CustomErrorController implements ErrorController {
                 model.addAttribute("message", "Access Denied");
                 return "error/403";
             }
+
+            // Handle 500 Internal Server Error
+            if (statusCode == HttpServletResponse.SC_INTERNAL_SERVER_ERROR) {
+                model.addAttribute("error", "500");
+                model.addAttribute("message", "Internal Server Error");
+                return "error/403";
+            }
             // Handle other error codes as needed
         }
 

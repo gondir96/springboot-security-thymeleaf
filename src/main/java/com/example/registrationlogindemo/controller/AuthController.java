@@ -6,6 +6,7 @@ import com.example.registrationlogindemo.entity.User;
 import com.example.registrationlogindemo.service.RoleService;
 import com.example.registrationlogindemo.service.UserService;
 import jakarta.validation.Valid;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
