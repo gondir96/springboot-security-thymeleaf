@@ -1,7 +1,9 @@
 package com.example.registrationlogindemo.controller;
 
 import com.example.registrationlogindemo.dto.UserDto;
+import com.example.registrationlogindemo.entity.Role;
 import com.example.registrationlogindemo.entity.User;
+import com.example.registrationlogindemo.service.RoleService;
 import com.example.registrationlogindemo.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.stereotype.Controller;
@@ -15,9 +17,12 @@ import java.util.List;
 public class AuthController {
 
     private UserService userService;
+    private RoleService roleService;
 
-    public AuthController(UserService userService) {
+    public AuthController(UserService userService,
+                          RoleService roleService) {
         this.userService = userService;
+        this.roleService = roleService;
     }
 
     @GetMapping("index")
@@ -72,9 +77,22 @@ public class AuthController {
         return "users";
     }
 
+    @GetMapping("/roles")
+    public String listRoles(Model model){
+        List<Role> roles = roleService.findAllRole();
+        model.addAttribute("roles", roles);
+        return "roles";
+    }
+
     @GetMapping("/deleteUser/{userId}")
     public String deleteUser(@PathVariable Long userId) {
         userService.deleteUserById(userId);
         return "redirect:/users?success"; // Redirect to the user list page after deletion
+    }
+
+    @GetMapping("/deleteRole/{roleId}")
+    public String deleteRole(@PathVariable Long roleId) {
+        roleService.deleteRoleById(roleId);
+        return "redirect:/roles?success"; // Redirect to the role list page after deletion
     }
 }
