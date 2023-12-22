@@ -69,15 +69,12 @@ public class AuthController {
     public String listRegisteredUsers(Model model){
         List<User> users = userService.findAllUser();
         model.addAttribute("users", users);
-        for (User user : users) {
-            System.out.println(user);
-        }
         return "users";
     }
 
     @GetMapping("/deleteUser/{userId}")
     public String deleteUser(@PathVariable Long userId) {
         userService.deleteUserById(userId);
-        return "redirect:/users"; // Redirect to the user list page after deletion
+        return "redirect:/users?success"; // Redirect to the user list page after deletion
     }
 }
