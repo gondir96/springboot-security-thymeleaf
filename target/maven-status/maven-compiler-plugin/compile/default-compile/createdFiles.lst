@@ -6,13 +6,13 @@ com\example\registrationlogindemo\service\RoleService.class
 com\example\registrationlogindemo\dto\UserDto.class
 com\example\registrationlogindemo\controller\AuthController.class
 com\example\registrationlogindemo\entity\User.class
-com\example\registrationlogindemo\controller\BookController.class
 com\example\registrationlogindemo\entity\Role.class
 com\example\registrationlogindemo\service\impl\UserServiceImpl.class
 com\example\registrationlogindemo\service\UserService.class
 com\example\registrationlogindemo\repository\UserRepository.class
 com\example\registrationlogindemo\config\SpringSecurity.class
 com\example\registrationlogindemo\RegistrationLoginDemoApplication.class
+com\example\registrationlogindemo\controller\PageController.class
 com\example\registrationlogindemo\service\impl\RoleServiceImpl.class
 com\example\registrationlogindemo\service\PageService.class
 com\example\registrationlogindemo\security\CustomUserDetailsService.class
