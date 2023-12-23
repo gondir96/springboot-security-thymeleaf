@@ -16,24 +16,22 @@ public class CustomErrorController implements ErrorController {
         Object status = request.getAttribute(RequestDispatcher.ERROR_STATUS_CODE);
         int statusCode = Integer.parseInt(status.toString());
 
-        if (status != null) {
-
-            // Handle 403 Forbidden
-            if (statusCode == HttpServletResponse.SC_FORBIDDEN) {
-                model.addAttribute("error", statusCode);
-                model.addAttribute("message", "Oops! You don't have permission to access this resource.");
-                return "error/403";
-            }
-
-            // Handle 500 Internal Server Error
-            if (statusCode == HttpServletResponse.SC_INTERNAL_SERVER_ERROR) {
-                model.addAttribute("error", statusCode);
-                model.addAttribute("message", "Oops! Our server is practicing its disappearing act. Don't worry; it's just a phase. We'll bring it back from the magic show soon!");
-                return "error/403";
-            }
-            // Handle other error codes as needed
+        // Handle 403 Forbidden
+        if (statusCode == HttpServletResponse.SC_FORBIDDEN) {
+            model.addAttribute("error", statusCode);
+            model.addAttribute("message", "Oops! You don't have permission to access this resource.");
+            return "error/default";
         }
 
+        // Handle 500 Internal Server Error
+        if (statusCode == HttpServletResponse.SC_INTERNAL_SERVER_ERROR) {
+            model.addAttribute("error", statusCode);
+            model.addAttribute("message", "Oops! Our server is practicing its disappearing act. Don't worry; it's just a phase. We'll bring it back from the magic show soon!");
+            return "error/default";
+        }
+        // Handle other error codes as needed
+
+        // Default error handling
         model.addAttribute("error", statusCode);
         model.addAttribute("message", "Well, this is awkward. It seems our code went on a coffee break without telling anyone. We've sent it a strongly worded email and expect it back shortly. Thanks for your patience!");
         return "error/default";
