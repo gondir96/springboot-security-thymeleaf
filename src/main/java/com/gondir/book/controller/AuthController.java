@@ -21,42 +21,45 @@ public class AuthController {
     private final UserService userService;
     private final RoleService roleService;
 
-    public AuthController(UserService userService,
-                          RoleService roleService) {
+    public AuthController(UserService userService, RoleService roleService) {
         this.userService = userService;
         this.roleService = roleService;
     }
 
-    @GetMapping("/")
-    public String home(){
+    // Redirects logged-in users
+    private static String redirectByPrincipal() {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        if (auth.getPrincipal()!="anonymousUser") return "redirect:/users";
-        return "index";
+        if (auth.getPrincipal() != "anonymousUser") return "redirect:users";
+        return null;
+    }
+
+    @GetMapping("/")
+    public String home() {
+        String redirect = redirectByPrincipal();
+        return (redirect == null ? "index" : redirect);
     }
 
     @GetMapping("/login")
     public String loginForm() {
-        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        if (auth.getPrincipal()!="anonymousUser") return "redirect:/users";
-        return "login";
+        String redirect = redirectByPrincipal();
+        return (redirect == null ? "login" : redirect);
     }
 
     // handler method to handle user registration request
     @GetMapping("register")
-    public String showRegistrationForm(Model model){
-        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        if (auth.getPrincipal()!="anonymousUser") return "redirect:/users";
+    public String showRegistrationForm(Model model) {
+        String redirect = redirectByPrincipal();
+        if (redirect != null) return redirect;
 
         UserDto user = new UserDto();
         model.addAttribute("user", user);
+
         return "register";
     }
 
     // handler method to handle register user form submit request
     @PostMapping("/register/save")
-    public String registration(@Valid @ModelAttribute("user") UserDto user,
-                               BindingResult result,
-                               Model model){
+    public String registration(@Valid @ModelAttribute("user") UserDto user, BindingResult result, Model model) {
         User existing = userService.findByEmail(user.getEmail());
         if (existing != null) {
             result.rejectValue("email", null, "There is already an account registered with that email");
@@ -70,7 +73,7 @@ public class AuthController {
     }
 
     @GetMapping("/userDto")
-    public String listRegisteredUserDto(Model model){
+    public String listRegisteredUserDto(Model model) {
         List<UserDto> users = userService.findAllUserDto();
         model.addAttribute("users", users);
         for (UserDto user : users) {
@@ -80,14 +83,14 @@ public class AuthController {
     }
 
     @GetMapping("/users")
-    public String listRegisteredUsers(Model model){
+    public String listRegisteredUsers(Model model) {
         List<User> users = userService.findAllUser();
         model.addAttribute("users", users);
         return "users";
     }
 
     @GetMapping("/roles")
-    public String listRoles(Model model){
+    public String listRoles(Model model) {
         List<Role> roles = roleService.findAllRole();
         model.addAttribute("roles", roles);
         return "roles";

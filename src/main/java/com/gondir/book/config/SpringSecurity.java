@@ -29,10 +29,14 @@ public class SpringSecurity {
         http.csrf().disable()
                 .authorizeHttpRequests((authorize) ->
                         authorize
+                                // Req. ADMIN role
                                 .requestMatchers("/deleteRole/**").hasRole("ADMIN")
                                 .requestMatchers("/deleteUser/**").hasRole("ADMIN")
+                                //Req. no role
                                 .requestMatchers("/").permitAll()
-                                .requestMatchers("/register").permitAll()
+                                .requestMatchers("/register/**").permitAll()
+                                .requestMatchers("/login").permitAll()
+                                // Accessible ONLY with ANY role
                                 .anyRequest().hasAnyRole("ADMIN", "USER")
                 ).formLogin(
                         form -> form
