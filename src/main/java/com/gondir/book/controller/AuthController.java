@@ -6,6 +6,8 @@ import com.gondir.book.entity.User;
 import com.gondir.book.service.RoleService;
 import com.gondir.book.service.UserService;
 import jakarta.validation.Valid;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -16,8 +18,8 @@ import java.util.List;
 @Controller
 public class AuthController {
 
-    private UserService userService;
-    private RoleService roleService;
+    private final UserService userService;
+    private final RoleService roleService;
 
     public AuthController(UserService userService,
                           RoleService roleService) {
@@ -25,19 +27,26 @@ public class AuthController {
         this.roleService = roleService;
     }
 
-    @GetMapping("index")
+    @GetMapping("/")
     public String home(){
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        if (auth.getPrincipal()!="anonymousUser") return "redirect:/users";
         return "index";
     }
 
     @GetMapping("/login")
     public String loginForm() {
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        if (auth.getPrincipal()!="anonymousUser") return "redirect:/users";
         return "login";
     }
 
     // handler method to handle user registration request
     @GetMapping("register")
     public String showRegistrationForm(Model model){
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        if (auth.getPrincipal()!="anonymousUser") return "redirect:/users";
+
         UserDto user = new UserDto();
         model.addAttribute("user", user);
         return "register";
@@ -96,7 +105,7 @@ public class AuthController {
         return "redirect:/roles?success"; // Redirect to the role list page after deletion
     }
 
-    @RequestMapping("/book")
+    @GetMapping("/book")
     public String getBook() {
         return "game/book";
     }
