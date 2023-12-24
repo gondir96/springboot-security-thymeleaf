@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"
       xmlns:th="http://www.thymeleaf.org"
->
+      xmlns:sec="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -30,7 +31,7 @@
                     <a class="nav-link active" aria-current="page" th:href="@{/page/1}">Play</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" th:href="@{/book}">Choose your class</a>
+                    <a sec:authorize="hasRole('ADMIN')" class="nav-link active" aria-current="page" th:href="@{/book}">Choose your class</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -56,7 +57,7 @@
             <th>Email</th>
             <th>Password</th>
             <th>Roles</th>
-            <th>Action</th>
+            <th sec:authorize="hasRole('ADMIN')">Action</th>
         </tr>
         </thead>
         <tbody>
@@ -66,7 +67,7 @@
             <td th:text="${user.email}"></td>
             <td th:text="${user.password}"></td>
             <td th:text="${user.roles}"></td>
-            <td>
+            <td sec:authorize="hasRole('ADMIN')">
                 <a class="nav-link active" aria-current="page" th:href="@{'/deleteUser/' + ${user.id}}">Delete</a>
             </td>
         </tr>
